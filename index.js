@@ -12,7 +12,7 @@ function hexToDecimal(hex) {
 app.set('x-powered-by', false);
 // Starting
 app.post('/api/send', function(req, res, next) {
-	res.set('made-by', 'NiceSapien')
+	res.set('made-by', 'Creattek')
 		var webhook_url = req.body['url'];
 		var message = req.body['content'];
 		var username = req.body['username'];
